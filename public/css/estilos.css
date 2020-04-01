@@ -1,0 +1,144 @@
+	/*=====estilos de formulario======*/
+	
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+/*======Pie de pagina======*/
+
+footer {
+	background:#09C;
+	color:white;
+	width:100%;
+	
+}
+
+.pie{
+	width:100%;
+	max-width:1200px;
+	margin:auto;
+	padding:20px;
+ 
+}
+
+.contenido_body {
+	display:flex;
+	justify-content:space-between;
+}
+
+.columna1 {
+	max-width:300px;
+}
+
+.columna1 h4{
+	font-size:15px;
+	
+}
+
+.columna1 p{
+	font-size:14px;
+	color:#C7C7C7;
+	margin-top:20px;
+}
+
+.columna2 {
+	max-width:400px;
+}
+
+.columna2 h4{
+	font-size:15px;
+}
+
+.row{
+	margin-top:20px;
+	display:flex:
+}
+
+.row.border-img {
+	width:30px;
+	height:30px;
+	border-radius:5px;
+}
+
+.row label {
+	max-width:400px;
+	margin-top:20px;
+	margin-left:20px;
+	color:#C7C7C7;
+}
+
+.columna3 {
+	max-width:500px;
+}
+
+.columna3 h4 {
+	font-size:15px;
+}
+
+.row2 {
+	margin-top:20px;
+	display:flex;
+}
+
+.row2 img{
+	width:30px;
+	height:30px;
+	border-radius:5px;
+
+}
+
+.row2 label{
+	
+	max-width:400px;
+	margin-top:20px;
+	margin-left:20px;
+	color:#C7C7C7;
+}
+
+.contenido_pie {
+	width:100%; 
+	background:#101010;
+	
+}
+
+.footer {
+	max-width:1200px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+}
+
+.derechos_autor {
+	color:#C7C7C7;
+}
+
+.derechos_autor a {
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+.informacion a {
+	text-decoration:none;
+	color:#C7C7C7;
+}
+
+@media screen and (max-width: 1100px){
+	.contenido_body {
+		flex-wrap:wrap;
+	}
+	
+	.columna1,
+	.columna3 {
+		margin-top:40px;
+	}
+}
+
+
+
+
+
+
+
